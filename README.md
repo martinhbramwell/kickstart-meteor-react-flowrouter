@@ -2,17 +2,19 @@
 
 Kickstart a project with Meteor, React and FlowRouter fast!
 
-1. curl https://install.meteor.com/ | sh
-1. sudo apt install npm
-1. git clone https://github.com/thereactivestack/kickstart-meteor-react-flowrouter.git
-1. cd kickstart-meteor-react-flowrouter
-1. npm install
-1. meteor run -- production
+1. `curl https://install.meteor.com/ | sh`
+1. `sudo apt install -y npm`
+1. `sudo apt install -y git`
+1. `git clone https://github.com/thereactivestack/kickstart-meteor-react-flowrouter.git`
+1. `cd kickstart-meteor-react-flowrouter`
+1. `npm install`
+1. `meteor run --production`
 
-Note : if you just run with `meteor` you will **only** be able to connect with a browser on the same host.
+**Note** : if you just run with `meteor` you will **only** be able to connect with a browser on the same host. (Due to `GET http://localhost:3500/assets/web.js net::ERR_CONNECTION_REFUSED`)
+
+### Next steps :
 
 You can try [other kickstart projects](https://github.com/thereactivestack/kickstart) with ReactRouter, FlowRouter or Redux.
-
 
 ## [Learn how to be productive with Meteor and Webpack in 7 days on TheReactiveStack.com](https://thereactivestack.com)
 
