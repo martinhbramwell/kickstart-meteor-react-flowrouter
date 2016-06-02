@@ -46,3 +46,9 @@ You need to do those 3 steps to make it works with iOS or Android:
     ```
 
 1. Replace localhost by your local ip address in `webpack.json`.
+
+
+####  Chimp
+
+npm install chimp
+./node_modules/.bin/chimp --ddp=http://localhost:3000 --watch --path=tests
